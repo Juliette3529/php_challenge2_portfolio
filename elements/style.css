@@ -1,0 +1,31 @@
+/*1- #FEEEE2 2- #6B88B2
+3- #655026
+*/
+body{
+font-family: 'Lobster', cursive;
+}
+.presentation{
+    height:500px;
+    background-color:#6B88B2;
+}
+.navbar-right {
+    margin-right: 0;
+}
+.navbar{
+    background-color:#FEEEE2;
+    font-size:20px;
+}
+.navbar-brand{
+    font-size:22px;
+}
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+}
+.sous_block{
+    height:300px;
+    margin-top:100px;
+    margin-bottom:100px;
+    background-color:#655026;
+    opacity:0.6;
+}
