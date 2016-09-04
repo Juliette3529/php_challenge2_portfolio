@@ -61,16 +61,12 @@ code{
      margin-top:30%;
 } 
 @-webkit-keyframe manger {
-    0% { border-right: 80px solid transparent; }
-    25%{ border-right: 80px solid transparent; }
-    75%{ border-right: 80px solid transparent; }
-    100%{border-right:80px solid #FEEEE2 ; }
+    from { border-right-color : transparent; }
+    to {border-right-color : #FEEEE2 ; }
 }
 @keyframe manger{
-     0% { border-right: 80px solid transparent; }
-    25%{ border-right: 80px solid transparent; }
-    75%{ border-right: 80px solid transparent; }
-    100%{border-right:80px solid #FEEEE2 ; }
+    from { border-right-color : transparent; }
+    to {border-right-color : #FEEEE2 ; }
 }
 /* a manger pour le pacman*/
 .nourriture{

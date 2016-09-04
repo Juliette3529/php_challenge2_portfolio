@@ -60,17 +60,13 @@
     animation: manger 10s infinite; </br>
      margin-top:30%; </br>
 } </br>
-@-webkit-keyframe manger { </br>
-    0% { border-right: 80px solid transparent; } </br>
-    25%{ border-right: 80px solid transparent; } </br>
-    75%{ border-right: 80px solid transparent; } </br>
-    100%{border-right:80px solid #FEEEE2 ; } </br>
+@-webkit-keyframe manger { </br> 
+    from { border-right-color : transparent; } </br>
+    to {border-right-color : #FEEEE2 ; } </br>
 } </br>
 @keyframe manger{ </br>
-     0% { border-right: 80px solid transparent; } </br>
-    25%{ border-right: 80px solid transparent; } </br>
-    75%{ border-right: 80px solid transparent; } </br>
-    100%{border-right:80px solid #FEEEE2 ; } </br>
+    from { border-right-color : transparent; } </br>
+    to {border-right-color : #FEEEE2 ; } </br>
 } </br>
 /* a manger pour le pacman*/ </br>
 .nourriture{ </br>
