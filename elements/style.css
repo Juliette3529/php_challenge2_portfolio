@@ -28,4 +28,19 @@ font-family: 'Lobster', cursive;
     margin-bottom:100px;
     background-color:#655026;
     opacity:0.6;
+    color:#FEEEE2;
+}
+.contenu_scroll{
+  overflow:scroll;
+}
+.form-horizontal .form-group {
+    margin-top: 12%;
+}
+.form-js{
+    color:#FEEEE2;
+    font-size:18px;
+}
+code{
+    color:#FEEEE2;
+    background-color: #655026;
 }

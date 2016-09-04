@@ -38,8 +38,8 @@
         <div class="col-md-offset-1 col-md-4 sous_block">
             <p> ICI EXEMPLE DE TRUC EN CSS</p>
         </div>
-        <div class="col-md-offset-1 col-md-5 sous_block">
-            <p>ICI DU CODE</p>
+        <div class="col-md-offset-1 col-md-5 sous_block contenu_scroll">
+           <code>ICI DU CODE</code>
         </div>
     </div>
 </section>
@@ -47,10 +47,67 @@
 <section class="row">
         <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 presentation">
         <div class="col-md-offset-1 col-md-4 sous_block">
-            <p> ICI EXEMPLE DE TRUC EN JS</p>
+            <h2>Un anagrame ?</h2>
+            <form class="form-horizontal form-js">
+            <div class="form-group">
+            <label class="control-label col-sm-2">Un mot</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" placeholder="Entrez Un mot">
+            </div>
+            </div>
+            <div class="form group">
+            <label class="control-label col-sm-2">Un mot</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" placeholder="Entrez Un mot">
+            </div>
+            </div>
+            <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-5">
+            <button type="submit" class="btn btn-default">Envoyer </button>
+            </div>
+            </div>
+            </form>
         </div>
-        <div class="col-md-offset-1 col-md-5 sous_block">
-            <p>ICI DU CODE</p>
+        <div class="col-md-offset-1 col-md-5 sous_block contenu_scroll">
+            <code>'use strict'; </br>
+
+function Anagram(word) { </br>
+  this.word = word ; </br>
+}; </br>
+ 
+
+
+
+Anagram.prototype.matches = function (words) { </br>
+    var wrod = this.trie(this.word) ; </br>
+
+    var matches = [] ; </br>
+   if (typeof words === 'string'){ </br>
+       words = arguments; </br>
+    } </br>
+    for (var i = 0 ; i < words.length ; i++) { </br>
+     var Ewords = words[i]; </br>
+     var wrods = this.trie(Ewords) ;  </br>
+    if  (wrods === wrod && Ewords.toUpperCase() != this.word.toUpperCase()) { </br>
+    //&& pour verifier que mots differents  </br>
+      // renvoie l'element du tableau comparé  </br>
+       // matches[i] = Ewords ; </br>
+        matches.push(Ewords) ; </br>
+    } </br>
+    } </br>
+    return matches; </br>
+
+}; </br>
+
+Anagram.prototype.trie = function (string1) { </br>
+    var str = string1.toUpperCase(); </br>
+    str = str.split(""); </br>
+    str = str.sort(); </br>
+    str = str.join(""); </br>
+    return str; </br>
+}; </br>
+// je tableaute le mot, je le trie et je le remets en mot en enlevant les espaces .
+            </code>
         </div>
     </div>
 </section>
@@ -60,8 +117,8 @@
         <div class="col-md-offset-1 col-md-4 sous_block">
             <p> ICI EXEMPLE DE TRUC EN </p>
         </div>
-        <div class="col-md-offset-1 col-md-5 sous_block">
-            <p>ICI DU CODE</p>
+        <div class="col-md-offset-1 col-md-5 sous_block contenu_scroll">
+            <code>ici du code</code>
         </div>
     </div>
 </div>
