@@ -44,3 +44,58 @@ code{
     color:#FEEEE2;
     background-color: #655026;
 }
+/*debut du pacman */
+ .pacman { 
+     width: 0px; 
+     height: 0px; 
+     border-right: 80px solid transparent; 
+     border-top: 80px solid #FEEEE2; 
+     border-left: 80px solid #FEEEE2; 
+     border-bottom: 80px solid #FEEEE2; 
+     border-top-left-radius: 80px; 
+     border-top-right-radius: 80px;
+     border-bottom-left-radius: 80px;
+     border-bottom-right-radius: 80px;
+    -webkit-animation: manger 10s infinite; /* Chrome, Safari, Opera */ 
+    animation: manger 10s infinite;
+     margin-top:30%;
+} 
+@-webkit-keyframe manger {
+    0% { border-right: 80px solid transparent; }
+    25%{ border-right: 80px solid transparent; }
+    75%{ border-right: 80px solid transparent; }
+    100%{border-right:80px solid #FEEEE2 ; }
+}
+@keyframe manger{
+     0% { border-right: 80px solid transparent; }
+    25%{ border-right: 80px solid transparent; }
+    75%{ border-right: 80px solid transparent; }
+    100%{border-right:80px solid #FEEEE2 ; }
+}
+/* a manger pour le pacman*/
+.nourriture{
+    margin-top: 129%;
+     width: 70px;
+    height: 70px;
+    background: #6B88B2;
+    border-radius: 96px;
+    position :relative;
+    -webkit-animation: escape 10s infinite; /* Chrome, Safari, Opera */ 
+    animation: escape 10s infinite;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes escape {
+    0%   {right: 0px;}
+    25%  {right: 200px;}
+    75%  {right: 50px}
+    100% {right: 100px;}
+}
+
+/* syntaxe Standard  */
+@keyframes escape {
+    0%   {right: 0px;}
+    25%  {right: 200px;}
+    75%  {right: 50px}
+    100% {right: 100px;}
+}

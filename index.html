@@ -36,10 +36,67 @@
     <section class="row">
         <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 presentation">
         <div class="col-md-offset-1 col-md-4 sous_block">
-            <p> ICI EXEMPLE DE TRUC EN CSS</p>
+            <div class="col-md-4">
+                <div class="pacman"></div>
+            </div>
+            <div class="col-md-offset-4 col-md-2">
+                <div class="nourriture"></div>
+            </div>
+            <p class="text-center"> ICI EXEMPLE DE TRUC EN CSS (le pcman devrait fermer sa bouche)</p>
         </div>
         <div class="col-md-offset-1 col-md-5 sous_block contenu_scroll">
-           <code>ICI DU CODE</code>
+            <code> .pacman { </br>
+     width: 0px; </br>
+     height: 0px; </br>
+     border-right: 80px solid transparent; </br>
+     border-top: 80px solid #FEEEE2; </br>
+     border-left: 80px solid #FEEEE2; </br>
+     border-bottom: 80px solid #FEEEE2; </br>
+     border-top-left-radius: 80px; </br>
+     border-top-right-radius: 80px; </br>
+     border-bottom-left-radius: 80px; </br>
+     border-bottom-right-radius: 80px; </br>
+    -webkit-animation: manger 10s infinite; /* Chrome, Safari, Opera */ </br> 
+    animation: manger 10s infinite; </br>
+     margin-top:30%; </br>
+} </br>
+@-webkit-keyframe manger { </br>
+    0% { border-right: 80px solid transparent; } </br>
+    25%{ border-right: 80px solid transparent; } </br>
+    75%{ border-right: 80px solid transparent; } </br>
+    100%{border-right:80px solid #FEEEE2 ; } </br>
+} </br>
+@keyframe manger{ </br>
+     0% { border-right: 80px solid transparent; } </br>
+    25%{ border-right: 80px solid transparent; } </br>
+    75%{ border-right: 80px solid transparent; } </br>
+    100%{border-right:80px solid #FEEEE2 ; } </br>
+} </br>
+/* a manger pour le pacman*/ </br>
+.nourriture{ </br>
+    margin-top: 129%; </br>
+     width: 70px; </br>
+    height: 70px; </br>
+    background: #6B88B2; </br>
+    border-radius: 96px; </br>
+    position :relative; </br>
+    -webkit-animation: escape 10s infinite; /* Chrome, Safari, Opera */ </br> 
+    animation: escape 10s infinite; </br>
+} </br>
+/* Chrome, Safari, Opera */ </br> 
+@-webkit-keyframes escape { </br>
+    0%   {right: 0px;} </br>
+    25%  {right: 200px;} </br>
+    75%  {right: 50px} </br>
+    100% {right: 100px;} </br>
+}</br>
+/* syntaxe Standard  */ </br>
+@keyframes escape { </br>
+    0%   {right: 0px;} </br>
+    25%  {right: 200px;} </br>
+    75%  {right: 50px} </br>
+    100% {right: 100px;} </br>
+}</code>
         </div>
     </div>
 </section>
