@@ -30,6 +30,12 @@ font-family: 'Lobster', cursive;
     opacity:0.6;
     color:#FEEEE2;
 }
+.description{
+    height:100px;
+    opacity:0.8;
+    background:transparent;
+    font-size:20px;
+}
 .contenu_scroll{
   overflow:scroll;
 }
@@ -94,4 +100,51 @@ code{
     25%  {right: 200px;}
     75%  {right: 50px}
     100% {right: 100px;}
+}
+.photo{
+    height:317px;
+}
+
+.content{
+    height: 100%;
+    opacity: 0;
+    transition: 0.4s;
+}
+.nopadding{
+    padding:0px;
+}
+
+.photo:hover .content{
+    background-color:#FEEEE2 ;
+    opacity: 0.8;
+    transition: 0.4s;
+    padding-top:10%;
+}
+.AvantFooter{
+    height:100px;
+    background-color:#6B88B2;
+}
+.ex1{
+    background-image: url(img/challenge_5.png);
+    background-size:cover;
+}
+.ex2{
+    background-image:url(img/challenge_6.png);
+    background-size:cover;
+}
+.ex3{
+    background-image: url(img/fedala.png);
+    background-size:cover;
+}
+.ex4{
+    background-image: url(img/chuck_norris.png);
+    background-size:cover;
+}
+.ex5{
+    background-size:cover;
+    background-image: url(img/fb.png);
+}
+.ex6{
+    background-size:cover;
+    background-image: url(img/blibli.png);
 }
