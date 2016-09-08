@@ -1,19 +1,25 @@
-/*1- #FEEEE2 2- #6B88B2
+/*1- #FEEEE2 2- #111E30
 3- #655026
 */
 body{
 font-family: 'Lobster', cursive;
 }
+.OuSuisJeTombe{
+    background-color:#FFFFFF;
+    height: 800px ;
+    color:#111E30;
+}
 .presentation{
     height:500px;
-    background-color:#6B88B2;
+    background-color:#FFFFFF;
 }
 .navbar-right {
     margin-right: 0;
 }
 .navbar{
-    background-color:#FEEEE2;
+    background-color:#FFFFFF;
     font-size:20px;
+    color:#111E30;
 }
 .navbar-brand{
     font-size:22px;
@@ -26,7 +32,7 @@ font-family: 'Lobster', cursive;
     height:300px;
     margin-top:100px;
     margin-bottom:100px;
-    background-color:#655026;
+    background-color:#111E30;
     opacity:0.6;
     color:#FEEEE2;
 }
@@ -43,12 +49,12 @@ font-family: 'Lobster', cursive;
     margin-top: 12%;
 }
 .form-js{
-    color:#FEEEE2;
+    color:#FFFFFF;
     font-size:18px;
 }
 code{
-    color:#FEEEE2;
-    background-color: #655026;
+    color: #FFFFFF;
+    background-color: #111E30;
 }
 /*debut du pacman */
  .pacman { 
@@ -115,14 +121,14 @@ code{
 }
 
 .photo:hover .content{
-    background-color:#FEEEE2 ;
+    background-color:#FFFFFF ;
     opacity: 0.8;
     transition: 0.4s;
     padding-top:10%;
 }
 .AvantFooter{
     height:100px;
-    background-color:#6B88B2;
+    background-color:#111E30;
 }
 .ex1{
     background-image: url(img/challenge_5.png);
