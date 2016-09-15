@@ -122,7 +122,9 @@ code{
 .nopadding{
     padding:0px;
 }
-
+.nomargin{
+    margin:0px;
+}
 .photo:hover .content{
     background-color:#FFFFFF ;
     opacity: 0.8;
@@ -132,6 +134,9 @@ code{
 .AvantFooter{
     height:100px;
     background-color:#111E30;
+}
+.ApresProjet{
+    height:50px;
 }
 .ex1{
     background-image: url(img/challenge_5.png);
@@ -218,10 +223,5 @@ one{
     border-bottom-width: 20px;
 }
 footer{
-    height:200px;
-}
-.MaPhoto {
-    background-image: url(img/photo.JPG);
-    height: 200px;
-    background-size:cover;
+    height:150px;
 }
