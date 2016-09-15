@@ -4,8 +4,11 @@
 body{
 font-family: 'Lobster', cursive;
 }
+.Presentation{
+height:400px;
+}
 .OuSuisJeTombe{
-    height: 400px ;
+    height: 250px ;
     color:#111E30;
     opacity:0.8;
 }
@@ -176,6 +179,7 @@ aside {
 }
 .key {
   position:relative;
+    font-size:20px;
 }
 .key:before {
   content:"";
@@ -191,3 +195,12 @@ aside {
 .four:before{background:rgba(84, 36, 55, 0.7)}
 .five:before{background:rgba(83, 119, 122, 0.7)}
 .six:before{background:rgba(119, 146, 174, 0.7)}
+.list-group{
+    font-size:22px;
+}
+.JeTravailleSur p{
+    font-size:20px;
+}
+.progress{
+    height:25px;
+}
