@@ -207,3 +207,21 @@ aside {
 one{
     background-color:palegreen;
 }
+.Presentation{
+    padding-top:100px;
+}
+.FuturAquarelle{
+    background-color:rgba(119, 146, 174, 0.5);
+    border-radius: 63px;
+    border-bottom-color:rgba(83, 119, 122, 0.7);
+    border-bottom-style: groove;
+    border-bottom-width: 20px;
+}
+footer{
+    height:200px;
+}
+.MaPhoto {
+    background-image: url(img/photo.JPG);
+    height: 200px;
+    background-size:cover;
+}
