@@ -37,6 +37,5 @@ function drawPieChart( canvasId ) {
 
 drawPieChart('canPie');
 
-
 });
 
