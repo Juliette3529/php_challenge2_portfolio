@@ -224,4 +224,17 @@ one{
 }
 footer{
     height:150px;
+    padding-top:20px;
+}
+.ione{
+    color:rgba(119, 146, 174, 0.7);
+}
+.itwo{
+    color:rgb(236, 208, 120);
+}
+.ithree{
+    color:rgba(192, 41, 66, 0.7);
+}
+.ifour{
+    color:rgba(84, 36, 55, 0.7);
 }
